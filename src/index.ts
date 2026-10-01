@@ -85,11 +85,11 @@ export async function youtubeDownload({
     }
 }
 
-// Backward compatibility export
+
 export const YoutubeDownload = youtubeDownload;
 
-// CLI Execution handler: runs if executed directly via node/tsx/npm
-const inputUrl = process.argv[2] || 'https://www.youtube.com/watch?v=Q9wQ0G7N-tc';
+
+const inputUrl =  'https://www.youtube.com/watch?v=Q9wQ0G7N-tc';
 youtubeDownload({
     url: inputUrl,
     outputFileName: 'output.mp4',

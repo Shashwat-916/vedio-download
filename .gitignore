@@ -1,27 +1,3 @@
-# Dependencies
-node_modules/
-
-# TypeScript build outputs
-/dist/
-*.tsbuildinfo
-
-# Downloads & Media output files
-downloads/
-*.mp4
-*.m4a
-*.webm
-*.mkv
-*.avi
-*.mp3
-
-# Environment & Config
-.env
-.env.*
-
-# IDE & Editor folders
-.vscode/
-.idea/
-
-# Operating System Files
-.DS_Store
-Thumbs.db
+/dist
+node_modules
+downloads
